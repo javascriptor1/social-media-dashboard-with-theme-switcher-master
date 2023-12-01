@@ -22,7 +22,7 @@
     <title>Frontend Mentor | [Challenge Name Here]</title>
   </head>
   <body class="text-[#1e202a]">
-    <header class="pt-[35px] px-6 bg-[#f5f7ff] rounded-b-2xl pb-11">
+    <header class="pt-[35px] px-6 bg-[#f0f3fa] rounded-b-2xl pb-20">
       <div class="flex flex-col">
         <h1 class="text-2xl font-bold">Social Media Dashboard</h1>
         <p
@@ -36,12 +36,12 @@
         <input type="checkbox" id="checkbox" title="checkbox" class="toggle" />
       </div>
     </header>
-    <main class="px-6">
+    <main class="px-6 -mt-9">
       <div class="flex flex-col gap-6">
         <div
-          class="flex flex-col items-center gap-3 pt-7 bg-[#f5f7ff] font-bold rounded-[3px] border-t-4 border-t-[#198ff5]"
+          class="flex flex-col items-center gap-3 pt-7 bg-[#f0f3fa] font-bold rounded-[3px] border-t-4 border-t-[#198ff5]"
         >
-          <div class="flex justify-center items-center gap-1 text-[#63687d]">
+          <div class="flex justify-center items-center gap-2 text-[#63687d]">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
               <path
                 fill="#178FF5"
@@ -66,7 +66,7 @@
         </div>
         <!-- Twitter stats -->
         <div
-          class="flex flex-col items-center gap-[13px] pt-[31px] bg-[#f5f7ff] font-bold rounded-[3px] border-t-4 border-t-[#1ca0f2]"
+          class="flex flex-col items-center gap-[13px] pt-7 bg-[#f0f3fa] font-bold rounded-[3px] border-t-4 border-t-[#1ca0f2]"
         >
           <div class="flex justify-center items-center gap-2 text-[#63687d]">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17">
@@ -93,7 +93,7 @@
         </div>
         <!-- Instagram stats -->
         <div
-          class="flex flex-col items-center gap-3 pt-7 bg-[#f5f7ff] font-bold relative instagram -mr-[1px] mt-[2px]"
+          class="flex flex-col items-center gap-3 pt-7 bg-[#f0f3fa] font-bold relative instagram -mr-[1px] mt-[2px]"
         >
           <div class="flex justify-center items-center gap-2 text-[#63687d]">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -127,7 +127,7 @@
         </div>
         <!-- Youtube stats -->
         <div
-          class="flex flex-col items-center gap-3 pt-7 bg-[#f5f7ff] font-bold rounded-sm border-t-4 border-t-[#C4032B]"
+          class="flex flex-col items-center gap-3 pt-8 bg-[#f0f3fa] font-bold rounded-sm border-t-4 border-t-[#C4032B]"
         >
           <div class="flex justify-center items-center gap-2 text-[#63687d]">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -149,15 +149,17 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
               <path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z" />
             </svg>
-            <p class="text-xs text-[#C4032B]">144 Today</p>
+            <p class="text-xs text-[#DC414C]">144 Today</p>
           </div>
         </div>
       </div>
-      <h2 class="text-[#63687d] mt-12 mb-6 text-2xl font-bold">
+      <h2 class="text-[#63687d] mt-12 mb-[22px] text-2xl font-bold">
         Overview - Today
       </h2>
       <div>
-        <div class="flex flex-col bg-[#f5f7ff] rounded p-[26px] pr-8 gap-4">
+        <div
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+        >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Page Views</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -167,8 +169,8 @@
               />
             </svg>
           </div>
-          <div class="flex justify-between items-center">
-            <p class="text-[34px] font-bold">87</p>
+          <div class="flex justify-between items-end">
+            <p class="text-[34px] font-bold relative top-[14px]">87</p>
             <div class="flex gap-1 items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                 <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
@@ -178,7 +180,9 @@
           </div>
         </div>
 
-        <div class="flex flex-col bg-[#f5f7ff] rounded p-[26px] pr-8 gap-4">
+        <div
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+        >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Likes</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -188,17 +192,19 @@
               />
             </svg>
           </div>
-          <div class="flex justify-between items-center">
-            <p class="text-[34px] font-bold">52</p>
+          <div class="flex justify-between items-end">
+            <p class="text-[34px] font-bold relative top-[14px]">52</p>
             <div class="flex gap-1 items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
-                <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
+                <path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z" />
               </svg>
-              <p class="text-sm font-bold text-[#1EB589]">2%</p>
+              <p class="text-sm font-bold text-[#DC414C]">2%</p>
             </div>
           </div>
         </div>
-        <div class="flex flex-col bg-[#f5f7ff] rounded p-[26px] pr-8 gap-4">
+        <div
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+        >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Likes</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -215,8 +221,8 @@
               />
             </svg>
           </div>
-          <div class="flex justify-between items-center">
-            <p class="text-[34px] font-bold">5462</p>
+          <div class="flex justify-between items-end">
+            <p class="text-[34px] font-bold relative top-[14px]">5462</p>
             <div class="flex gap-1 items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                 <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
@@ -225,7 +231,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col bg-[#f5f7ff] rounded p-[26px] pr-8 gap-4">
+        <div
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+        >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Profile Views</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -242,8 +250,8 @@
               />
             </svg>
           </div>
-          <div class="flex justify-between items-center">
-            <p class="text-[34px] font-bold">52k</p>
+          <div class="flex justify-between items-end">
+            <p class="text-[34px] font-bold relative top-[14px]">52k</p>
             <div class="flex gap-1 items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                 <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
@@ -252,7 +260,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col bg-[#f5f7ff] rounded p-[26px] pr-8 gap-4">
+        <div
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+        >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Retweets</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17">
@@ -262,8 +272,8 @@
               />
             </svg>
           </div>
-          <div class="flex justify-between items-center">
-            <p class="text-[34px] font-bold">117</p>
+          <div class="flex justify-between items-end">
+            <p class="text-[34px] font-bold relative top-[14px]">117</p>
             <div class="flex gap-1 items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                 <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
@@ -272,7 +282,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col bg-[#f5f7ff] rounded p-[26px] pr-8 gap-4">
+        <div
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+        >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Likes</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17">
@@ -282,8 +294,8 @@
               />
             </svg>
           </div>
-          <div class="flex justify-between items-center">
-            <p class="text-[34px] font-bold">507</p>
+          <div class="flex justify-between items-end">
+            <p class="text-[34px] font-bold relative top-[14px]">507</p>
             <div class="flex gap-1 items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                 <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
@@ -292,7 +304,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col bg-[#f5f7ff] rounded p-[26px] pr-8 gap-4">
+        <div
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+        >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Likes</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -302,17 +316,19 @@
               />
             </svg>
           </div>
-          <div class="flex justify-between items-center">
-            <p class="text-[34px] font-bold">107</p>
+          <div class="flex justify-between items-end">
+            <p class="text-[34px] font-bold relative top-[14px]">107</p>
             <div class="flex gap-1 items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
-                <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
+                <path fill="#DC414C" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
               </svg>
-              <p class="text-sm font-bold text-[#1EB589]">19%</p>
+              <p class="text-sm font-bold text-[#DC414C]">19%</p>
             </div>
           </div>
         </div>
-        <div class="flex flex-col bg-[#f5f7ff] rounded p-[26px] pr-8 gap-4">
+        <div
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+        >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Total Views</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -322,13 +338,13 @@
               />
             </svg>
           </div>
-          <div class="flex justify-between items-center">
-            <p class="text-[34px] font-bold">1407</p>
+          <div class="flex justify-between items-end">
+            <p class="text-[34px] font-bold relative top-[14px]">1407</p>
             <div class="flex gap-1 items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
-                <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
+                <path fill="#DC414C" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
               </svg>
-              <p class="text-sm font-bold text-[#1EB589]">12%</p>
+              <p class="text-sm font-bold text-[#DC414C]">12%</p>
             </div>
           </div>
         </div>
