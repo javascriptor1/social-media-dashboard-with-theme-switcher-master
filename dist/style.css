@@ -891,12 +891,28 @@ body {
     min-width: 252px;
   }
 
+  .lg\:min-w-\[2245px\] {
+    min-width: 2245px;
+  }
+
+  .lg\:min-w-\[245px\] {
+    min-width: 245px;
+  }
+
+  .lg\:max-w-\[252px\] {
+    max-width: 252px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
 
   .lg\:flex-wrap {
     flex-wrap: wrap;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
   }
 
   .lg\:gap-8 {
@@ -923,5 +939,17 @@ body {
 
   .lg\:text-\[28px\] {
     font-size: 28px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:justify-between {
+    justify-content: space-between;
   }
 }
