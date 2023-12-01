@@ -797,6 +797,10 @@ body {
   color: rgb(220 65 76 / var(--tw-text-opacity));
 }
 
+div > div:hover{
+  background-color: #e1e3f0;
+}
+
 .instagram::before {
   content: "";
   position: absolute;
@@ -866,6 +870,11 @@ body {
   cursor: pointer;
 }
 
+.hover\:bg-\[\#e1e3f0\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 227 240 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 1024px) {
   .lg\:-mt-\[108px\] {
     margin-top: -108px;
@@ -879,28 +888,8 @@ body {
     display: flex;
   }
 
-  .lg\:min-w-\[256px\] {
-    min-width: 256px;
-  }
-
-  .lg\:min-w-\[254px\] {
-    min-width: 254px;
-  }
-
   .lg\:min-w-\[252px\] {
     min-width: 252px;
-  }
-
-  .lg\:min-w-\[2245px\] {
-    min-width: 2245px;
-  }
-
-  .lg\:min-w-\[245px\] {
-    min-width: 245px;
-  }
-
-  .lg\:max-w-\[252px\] {
-    max-width: 252px;
   }
 
   .lg\:flex-row {
@@ -909,10 +898,6 @@ body {
 
   .lg\:flex-wrap {
     flex-wrap: wrap;
-  }
-
-  .lg\:justify-between {
-    justify-content: space-between;
   }
 
   .lg\:gap-8 {
@@ -944,12 +929,6 @@ body {
 
 @media (min-width: 1280px) {
   .xl\:justify-between {
-    justify-content: space-between;
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:justify-between {
     justify-content: space-between;
   }
 }
