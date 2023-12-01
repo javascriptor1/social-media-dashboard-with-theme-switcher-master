@@ -594,6 +594,10 @@ body {
   display: flex;
 }
 
+.max-w-\[256px\] {
+  max-width: 256px;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -848,15 +852,22 @@ body {
 }
 
 @media (min-width: 1024px) {
+  body {
+    position: relative;
+    z-index: -1;
+  }
+
   header {
     position: relative;
-    z-index: -2;
+    z-index: -1;
+  }
+
+  .instagram {
+    /* z-index: 3; */
   }
 
   .instagram::before {
     margin-top: -3px;
-    border-bottom-width: 3px;
-    border-bottom-color: #fff;
     max-width: 255px;
   }
 }
@@ -880,6 +891,10 @@ body {
 
   .lg\:min-w-\[256px\] {
     min-width: 256px;
+  }
+
+  .lg\:min-w-\[240px\] {
+    min-width: 240px;
   }
 
   .lg\:flex-row {
