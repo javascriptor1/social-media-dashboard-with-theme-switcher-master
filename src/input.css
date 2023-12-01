@@ -6,4 +6,53 @@
   body {
     font-family: "Inter", sans-serif;
   }
+  code {
+    color: #198ff5;
+  }
 }
+
+.instagram::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin-top: -4px;
+  background: linear-gradient(to right, #fdc366, #ee877e, #df4896);
+  z-index: -1;
+  border-radius: 3px;
+}
+/* .toggle {
+  appearance: none;
+  width: 58px;
+  height: 30px;
+  border-radius: 34px;
+  position: relative;
+  color: green;
+}
+
+.toggle::before {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  top: 50%;
+  left: 4px;
+  transform: translate(0, -50%);
+  transition: transform 300ms ease-in;
+  color: red;
+}
+
+.toggle:checked::before {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  top: 50%;
+  left: 4px;
+  transform: translate(28px, -50%);
+  transition: transform 300ms ease-in;
+  color: orange;
+} */
