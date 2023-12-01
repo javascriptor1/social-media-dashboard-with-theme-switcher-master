@@ -859,7 +859,13 @@ body {
     border-bottom-color: #fff;
     max-width: 255px;
   }
+}
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
   .lg\:-mt-\[108px\] {
     margin-top: -108px;
   }
