@@ -22,24 +22,33 @@
     <title>Frontend Mentor | [Challenge Name Here]</title>
   </head>
   <body class="text-[#1e202a]">
-    <header class="pt-[35px] px-6 bg-[#f0f3fa] rounded-b-2xl pb-20">
+    <header
+      class="pt-[35px] px-6 bg-[#f0f3fa] rounded-b-2xl pb-20 lg:flex justify-between lg:px-40 lg:py-[38px] lg:pb-[130px]"
+    >
       <div class="flex flex-col">
-        <h1 class="text-2xl font-bold">Social Media Dashboard</h1>
+        <h1 class="text-2xl font-bold lg:text-[28px]">
+          Social Media Dashboard
+        </h1>
         <p
-          class="font-bold text-sm ml-[2px] pb-[22px] border-b-2 border-[63687d] text-[#63687d]"
+          class="font-bold text-sm ml-[2px] pb-[22px] border-b-2 border-[63687d] text-[#63687d] lg:border-0"
         >
           Total Followers: 23,004
         </p>
       </div>
-      <div class="flex justify-between pt-4">
+      <div class="flex justify-between pt-4 gap-1">
         <p class="text-[14px] font-bold text-[#63687d]">Dark Mode</p>
-        <input type="checkbox" id="checkbox" title="checkbox" class="toggle" />
+        <input
+          type="checkbox"
+          id="checkbox"
+          title="checkbox"
+          class="toggle bg-[#b0b2cc]"
+        />
       </div>
     </header>
-    <main class="px-6 -mt-9">
-      <div class="flex flex-col gap-6">
+    <main class="px-6 -mt-9 lg:px-40 lg:-mt-[108px]">
+      <div class="flex flex-col gap-6 lg:gap-8 lg:flex-row lg:flex-wrap">
         <div
-          class="flex flex-col items-center gap-3 pt-7 bg-[#f0f3fa] font-bold rounded-[3px] border-t-4 border-t-[#198ff5]"
+          class="flex flex-col items-center gap-3 pt-7 bg-[#f0f3fa] font-bold rounded-[3px] border-t-4 border-t-[#198ff5] lg:min-w-[256px]"
         >
           <div class="flex justify-center items-center gap-2 text-[#63687d]">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -66,7 +75,7 @@
         </div>
         <!-- Twitter stats -->
         <div
-          class="flex flex-col items-center gap-[13px] pt-7 bg-[#f0f3fa] font-bold rounded-[3px] border-t-4 border-t-[#1ca0f2]"
+          class="flex flex-col items-center gap-[13px] pt-7 bg-[#f0f3fa] font-bold rounded-[3px] border-t-4 border-t-[#1ca0f2] lg:min-w-[256px]"
         >
           <div class="flex justify-center items-center gap-2 text-[#63687d]">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17">
@@ -93,7 +102,7 @@
         </div>
         <!-- Instagram stats -->
         <div
-          class="flex flex-col items-center gap-3 pt-7 bg-[#f0f3fa] font-bold relative instagram -mr-[1px] mt-[2px]"
+          class="flex flex-col items-center gap-3 pt-7 bg-[#f0f3fa] font-bold relative instagram -mr-[1px] mt-[2px] lg:min-w-[256px]"
         >
           <div class="flex justify-center items-center gap-2 text-[#63687d]">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -127,7 +136,7 @@
         </div>
         <!-- Youtube stats -->
         <div
-          class="flex flex-col items-center gap-3 pt-8 bg-[#f0f3fa] font-bold rounded-sm border-t-4 border-t-[#C4032B]"
+          class="flex flex-col items-center gap-3 pt-8 bg-[#f0f3fa] font-bold rounded-sm border-t-4 border-t-[#C4032B] lg:min-w-[256px]"
         >
           <div class="flex justify-center items-center gap-2 text-[#63687d]">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -156,9 +165,9 @@
       <h2 class="text-[#63687d] mt-12 mb-[22px] text-2xl font-bold">
         Overview - Today
       </h2>
-      <div>
+      <div class="lg:flex flex-wrap gap-6 lg:gap-8">
         <div
-          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4 lg:min-w-[256px] lg:mb-0"
         >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Page Views</p>
@@ -181,7 +190,7 @@
         </div>
 
         <div
-          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4 lg:min-w-[256px] lg:mb-0"
         >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Likes</p>
@@ -203,7 +212,7 @@
           </div>
         </div>
         <div
-          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4 lg:min-w-[256px] lg:mb-0"
         >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Likes</p>
@@ -232,7 +241,7 @@
           </div>
         </div>
         <div
-          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4 lg:min-w-[256px] lg:mb-0"
         >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Profile Views</p>
@@ -261,7 +270,7 @@
           </div>
         </div>
         <div
-          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4 lg:min-w-[256px] lg:mb-0"
         >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Retweets</p>
@@ -283,7 +292,7 @@
           </div>
         </div>
         <div
-          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4 lg:min-w-[256px] lg:mb-0"
         >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Likes</p>
@@ -305,7 +314,7 @@
           </div>
         </div>
         <div
-          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4 lg:min-w-[256px] lg:mb-0"
         >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Likes</p>
@@ -327,7 +336,7 @@
           </div>
         </div>
         <div
-          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4"
+          class="flex flex-col justify-between bg-[#f0f3fa] rounded py-[26px] pl-[26px] pr-8 mb-4 lg:min-w-[256px] lg:mb-0"
         >
           <div class="flex justify-between items-center">
             <p class="font-bold text-[#63687d] text-sm">Total Views</p>
