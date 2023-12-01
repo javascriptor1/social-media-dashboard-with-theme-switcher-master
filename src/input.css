@@ -16,6 +16,9 @@
   background: linear-gradient(to right, #fdc366, #ee877e, #df4896);
   z-index: -1;
   border-radius: 3px;
+  border-bottom-color: #fff;
+  border-bottom-width: 3px;
+  max-width: calc(100% - 1px);
 }
 .toggle {
   appearance: none;
@@ -55,19 +58,12 @@
 }
 
 @media (min-width: 1024px) {
-  body {
-    position: relative;
-    z-index: -1;
-  }
+  body,
   header {
     position: relative;
     z-index: -1;
   }
-  .instagram {
-    /* z-index: 3; */
-  }
   .instagram::before {
     margin-top: -3px;
-    max-width: 255px;
   }
 }
