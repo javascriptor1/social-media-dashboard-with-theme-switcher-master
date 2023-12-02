@@ -849,7 +849,7 @@ body {
 .toggle:checked::before {
   position: absolute;
   content: "";
-  background-color: #f0f4fa;
+  background-color: #363957;
   height: 18px;
   width: 18px;
   border-radius: 50%;
