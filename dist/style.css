@@ -805,9 +805,9 @@ body {
   transition-duration: 200ms;
 }
 
-div > div:hover {
+/* div > div:hover {
   background-color: #e1e3f0;
-}
+} */
 
 .instagram::before {
   content: "";
@@ -853,7 +853,7 @@ div > div:hover {
 .toggle:checked::before {
   position: absolute;
   content: "";
-  background-color: #f0f4fa;
+  background-color: #363957;
   height: 18px;
   width: 18px;
   border-radius: 50%;
@@ -877,6 +877,50 @@ div > div:hover {
 
 .hover\:cursor-pointer:hover {
   cursor: pointer;
+}
+
+.hover\:bg-\[\#e1e3f0\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 227 240 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-\[\#1e202a\]) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 32 42 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-\[\#1f212e\]) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 33 46 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-\[\#252a41\]) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 42 65 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:text-\[\#8b97c6\]) {
+  --tw-text-opacity: 1;
+  color: rgb(139 151 198 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-white) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:hover\:bg-\[\]:hover) {
+  background-color: ;
+}
+
+:is(.dark .dark\:hover\:bg-\[\#252a41\]:hover) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 42 65 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:hover\:bg-\[\#333a56\]:hover) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 58 86 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 1024px) {
