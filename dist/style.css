@@ -873,6 +873,16 @@ body {
   .instagram::before {
     margin-top: -3px;
   }
+
+  div > div {
+    min-width: 20%;
+  }
+
+  main > div {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
 }
 
 .border-fix {
@@ -972,7 +982,20 @@ body {
 }
 
 @media (min-width: 1280px) {
+  .xl\:min-w-\[252px\] {
+    min-width: 252px;
+  }
+
   .xl\:justify-between {
     justify-content: space-between;
+  }
+
+  .xl\:gap-8 {
+    gap: 2rem;
+  }
+
+  .xl\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 }
