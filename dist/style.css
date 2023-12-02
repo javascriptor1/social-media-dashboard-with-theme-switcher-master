@@ -847,7 +847,7 @@ body {
   top: 50%;
   left: 4px;
   transform: translate(20px, -50%);
-  transition: transform 300ms ease-in;
+  transition: transform 100ms ease-in;
 }
 
 .toggle:checked::before {
@@ -860,7 +860,7 @@ body {
   top: 50%;
   left: 4px;
   transform: translate(0, -50%);
-  transition: transform 300ms ease-in;
+  /* transition: transform 100ms ease-in; */
 }
 
 @media (min-width: 1024px) {
