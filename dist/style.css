@@ -879,6 +879,41 @@ div > div:hover {
   cursor: pointer;
 }
 
+.hover\:bg-\[\#e1e3f0\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 227 240 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-\[\#1e202a\]) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 32 42 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-\[\#1f212e\]) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 33 46 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-\[\#252a41\]) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 42 65 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:text-\[\#8b97c6\]) {
+  --tw-text-opacity: 1;
+  color: rgb(139 151 198 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-white) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:hover\:bg-\[\#333a56\]:hover) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 58 86 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 1024px) {
   .lg\:-mt-\[108px\] {
     margin-top: -108px;
