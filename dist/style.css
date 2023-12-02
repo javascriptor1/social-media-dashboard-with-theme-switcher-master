@@ -890,6 +890,15 @@ body {
   border-left-color: #1e202a;
 }
 
+.youtube {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #363957;
+}
+
 .hover\:cursor-pointer:hover {
   cursor: pointer;
 }

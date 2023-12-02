@@ -79,14 +79,23 @@
   div > div {
     min-width: 20%;
   }
- main > div {
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
- }
+  main > div {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
 }
 
 .border-fix {
   border-left-width: 3px;
   border-left-color: #1e202a;
+}
+
+.youtube {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #363957;
 }
