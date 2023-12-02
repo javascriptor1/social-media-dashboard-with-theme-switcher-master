@@ -15,12 +15,13 @@ const themeChecker = () => {
 function themeSwitcher() {
   if (rootEl.classList.contains("dark")) {
     rootEl.classList.remove("dark");
+    instagramDiv.classList.remove("border-fix");
     localStorage.setItem("theme", "light");
     return;
   }
   rootEl.classList.add("dark");
   localStorage.setItem("theme", "dark");
-  instagramDiv.classList.toggle("border-fix");
+  instagramDiv.classList.add("border-fix");
   localStorage.setItem("theme", "dark");
 }
 
