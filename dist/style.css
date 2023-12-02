@@ -805,6 +805,10 @@ body {
   transition-duration: 200ms;
 }
 
+/* div > div:hover {
+  background-color: #e1e3f0;
+} */
+
 .instagram::before {
   content: "";
   position: absolute;
@@ -869,6 +873,11 @@ body {
   .instagram::before {
     margin-top: -3px;
   }
+}
+
+.border-fix {
+  border-left-width: 3px;
+  border-left-color: #1e202a;
 }
 
 .hover\:cursor-pointer:hover {

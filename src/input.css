@@ -74,5 +74,11 @@
   }
   .instagram::before {
     margin-top: -3px;
+   
   }
+}
+
+.border-fix {
+  border-left-width: 3px;
+  border-left-color: #1e202a;
 }
