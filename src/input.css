@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   body {
     font-family: "Inter", sans-serif;
   }
+}
+ /* below code will make transition between light and dark mode smoother */
+*{
+  @apply transition-colors duration-200
 }
 
 div > div:hover {
