@@ -805,10 +805,6 @@ body {
   transition-duration: 200ms;
 }
 
-div > div:hover {
-  background-color: #e1e3f0;
-}
-
 .instagram::before {
   content: "";
   position: absolute;
